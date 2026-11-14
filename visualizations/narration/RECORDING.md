@@ -24,7 +24,7 @@ Optional: drop a royalty-free track at `public/music.mp3` and run `measure` agai
 **03-closed-box** · scratch 9.6 s  
 > The Hyundai D1 is sold as a closed box. Our track had five levels: get in, unlock every sensor, take the wheel, navigate, and answer the door.
 
-**04-getting-in** · scratch 14.8 s > Getting in was the first wall. USB from our laptop or phone showed no device at all. So we used the robot's own touchscreen as a terminal, gave it internet through phone tethering. We used a VPS to duplciate the robots screen on our laptop. We could than install COdex CLI on the D1 robot as well. We than let the agent run loose on the robot. 
+**04-getting-in** · scratch 14.8 s > Getting in was the first wall. USB from our laptop or phone showed no device at all. So we used the robot's own touchscreen as a terminal, gave it internet through phone tethering. We used a VPS to duplciate the robots screen on our laptop. We could than install Codex CLI on the D1 robot as well. We than let the agent run loose on the robot. 
 
 **05-brain** · scratch 12.8 s  
 > Inside, we found a networked brain: an Ubuntu display computer, and an internal controller running the ROS 1 master, the motor driver and the laser. We mapped the whole vendor graph before sending a single motion command.
