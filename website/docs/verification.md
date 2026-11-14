@@ -15,3 +15,7 @@ Live deployment checks are appended after rollout.
 Deployment notes: Coolify's GitHub App source expects `Balint197/proximata_hackathon_TUWRC` as its repository slug. A full URL produces a duplicated `github.com/https://github.com/...` clone path. Set the repository slug separately if a combined CLI update is rejected. No database edits were needed.
 
 First rollout completed successfully at commit `78756df`. Coolify reports `finished`; the replacement nginx container reports `healthy`. HTTPS at `getriv.fun` serves the new Hack the D1 document. The old voice-battle deployment has been replaced.
+
+Live checks on the first rollout: all three viewport acceptance runs passed over HTTPS; reduced-motion and script-disabled checks passed. The self-hosted film played in Chrome with its expected 179.82-second duration and caption track; nginx returned 206 for a video byte-range request. Keyboard End on the replay slider reached the 0.17m final state. Both apex and www hosts returned 200, and HTTP redirected to HTTPS.
+
+Owner supplied the final YouTube URL during verification: https://www.youtube.com/watch?v=UzRv3MRT9EA. Replaced the temporary self-hosted scratch film with a click-loaded privacy-enhanced YouTube embed and an always-available direct link. The local muted robot clip remains. Removed unused scratch-film encode and VTT. The earlier scratch-film caveat in the critique is superseded by this supplied video. Full playback inside YouTube depends on their embedding policy; the direct link is always available.

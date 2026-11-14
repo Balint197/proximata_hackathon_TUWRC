@@ -682,8 +682,11 @@ dialog::backdrop {
   background: var(--surface);
   color: var(--ink);
 }
-dialog video {
+dialog iframe {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
   max-height: 72svh;
   object-fit: contain;
   background: var(--dark);
@@ -1202,4 +1205,9 @@ dialog > p {
   .safety-number strong {
     font-size: 76px;
   }
+}
+
+.film-section .youtube-link {
+  margin: 20px 0 0;
+  font-size: var(--small);
 }

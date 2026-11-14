@@ -28,7 +28,8 @@ for (const button of document.querySelectorAll(".watch"))
     dialog.showModal();
     document.body.style.overflow = "hidden";
     hero.pause();
-    film.play().catch(() => {});
+    film.src =
+      "https://www.youtube-nocookie.com/embed/UzRv3MRT9EA?autoplay=1&rel=0";
   });
 $("#close-film").addEventListener("click", () => dialog.close());
 dialog.addEventListener("click", (e) => {
@@ -42,7 +43,7 @@ dialog.addEventListener("click", (e) => {
     dialog.close();
 });
 dialog.addEventListener("close", () => {
-  film.pause();
+  film.removeAttribute("src");
   document.body.style.overflow = "";
   opener?.focus();
   if (toggle.textContent === "Pause" && !reduced.matches)

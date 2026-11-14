@@ -357,9 +357,18 @@
           <h2 id="film-heading">The whole story</h2>
           <p>
             From a terminal on a touchscreen to a robot that takes a goal. Our
-            hackathon film, with temporary synthetic narration.
+            hackathon demonstration, from the first connection to the completed
+            run.
           </p>
           <button class="button watch" type="button">Watch the film</button>
+          <p class="youtube-link">
+            <a
+              href="https://www.youtube.com/watch?v=UzRv3MRT9EA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Watch on YouTube</a
+            >
+          </p>
         </div>
         <img
           src="/assets/map.png"
@@ -393,23 +402,29 @@
         <h2 id="dialog-title">Hack the D1</h2>
         <button id="close-film" type="button">Close film</button>
       </div>
-      <video
+      <iframe
         id="film"
-        controls
-        playsinline
-        preload="none"
-        poster="/assets/map.png"
-      >
-        <source src="/assets/hack-the-d1.mp4" type="video/mp4" />
-        <track
-          kind="captions"
-          src="/assets/captions.vtt"
-          srclang="en"
-          label="English"
-          default
-        />
-      </video>
-      <p>Hackathon film. Temporary synthetic narration.</p>
+        title="Hack the D1 hackathon demonstration on YouTube"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p>
+        <a
+          href="https://www.youtube.com/watch?v=UzRv3MRT9EA"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Watch on YouTube</a
+        >
+      </p>
     </dialog>
   </body>
 </html>

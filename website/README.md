@@ -12,7 +12,7 @@ Open http://localhost:4173. `website/Dockerfile` serves the same files with ngin
 
 The site uses only project footage and telemetry. `public/assets/door-run.json` is copied from `visualizations/src/data/door-run.json`; the replay interpolates the recorded poses, speed and gap, and displays timestamped scans and plans. It is a recording, not a live robot control interface. Sensor calibration, physical door navigation and Home Assistant integration remain unverified or unfinished as described on the page.
 
-`public/assets/hack-the-d1.mp4` is a 1280px H.264/AAC encode of the existing film (about 6.7 MB), with its current temporary synthetic voice. The standalone bottle clip is muted. Caption timing follows `visualizations/src/film/timeline.js`. Replace the web film and regenerate captions after a new narration render.
+The main film is the owner-provided YouTube video: https://www.youtube.com/watch?v=UzRv3MRT9EA. Its privacy-enhanced player loads only after a visitor clicks Watch the film; closing the dialog unloads the player. A direct Watch on YouTube link remains available. The background bottle-run clip is hosted locally and muted.
 
 Hanken Grotesk is served locally under the SIL Open Font License; see `public/assets/Hanken-OFL.txt`. All photographs, footage and map visuals come from this repository; no stock or generated imagery, sample claims or invented testimonials are used.
 
