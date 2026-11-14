@@ -11,3 +11,7 @@
 - Film source is the existing `hack-the-d1-scratch-voice.mp4`, 179.82 seconds. Web encode is 1280px H.264/AAC, approximately 6.7 MB. Captions use the same line timings and scene overlap calculation.
 
 Live deployment checks are appended after rollout.
+
+Deployment notes: Coolify's GitHub App source expects `Balint197/proximata_hackathon_TUWRC` as its repository slug. A full URL produces a duplicated `github.com/https://github.com/...` clone path. Set the repository slug separately if a combined CLI update is rejected. No database edits were needed.
+
+First rollout completed successfully at commit `78756df`. Coolify reports `finished`; the replacement nginx container reports `healthy`. HTTPS at `getriv.fun` serves the new Hack the D1 document. The old voice-battle deployment has been replaced.

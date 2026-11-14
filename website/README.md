@@ -23,7 +23,7 @@ The existing Coolify app UUID is `sj4we5npo80m4ujccemznchu`, previously named `v
 ```sh
 coolify app update sj4we5npo80m4ujccemznchu \
   --name hack-the-d1 \
-  --git-repository https://github.com/Balint197/proximata_hackathon_TUWRC \
+  --git-repository Balint197/proximata_hackathon_TUWRC \
   --git-branch main --base-directory /website --ports-exposes 80
 coolify deploy uuid sj4we5npo80m4ujccemznchu
 ```
