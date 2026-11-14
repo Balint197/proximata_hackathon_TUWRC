@@ -1,0 +1,56 @@
+{
+  "isolated": true,
+  "hardware_commands": 0,
+  "results": [
+    {
+      "phase": "startup",
+      "samples": 28,
+      "passed": true
+    },
+    {
+      "phase": "bounded",
+      "samples": 28,
+      "passed": true
+    },
+    {
+      "phase": "timeout",
+      "samples": 18,
+      "passed": true
+    },
+    {
+      "phase": "timeout_latched",
+      "samples": 18,
+      "passed": true
+    },
+    {
+      "phase": "before_stop",
+      "samples": 17,
+      "passed": true
+    },
+    {
+      "phase": "pressed",
+      "samples": 23,
+      "passed": true
+    },
+    {
+      "phase": "released_latched",
+      "samples": 23,
+      "passed": true
+    },
+    {
+      "phase": "rearmed",
+      "samples": 18,
+      "passed": true
+    },
+    {
+      "phase": "stale_status",
+      "samples": 21,
+      "passed": true
+    },
+    {
+      "phase": "status_recovered_latched",
+      "samples": 23,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "odom": {
+    "frame": "odom",
+    "child_frame": "base_link",
+    "stamp": 1794623769.0616627,
+    "age_s": 0.012845277786254883
+  },
+  "scan": {
+    "frame": "front_laser",
+    "stamp": 1794623768.984639,
+    "ranges": 693,
+    "valid_ranges": 683,
+    "angle_min": -2.0129811763763428,
+    "angle_max": 2.012510061264038,
+    "range_min": 0.05000000074505806,
+    "range_max": 23,
+    "age_s": 0.08986902236938477
+  },
+  "transforms": {
+    "odom <- base_link": {
+      "translation": [
+        0.009856026619672775,
+        0.00865466333925724,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.25878551532328614,
+        0.9659348099426075
+      ],
+      "stamp": 1794623769.0716612
+    },
+    "base_link <- front_laser": {
+      "translation": [
+        0.197,
+        0,
+        0.192
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "stamp": 1794623769.0822916
+    },
+    "map <- odom": {
+      "error": "\"map\" passed to lookupTransform argument target_frame does not exist. "
+    }
+  }
+}

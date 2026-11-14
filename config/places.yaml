@@ -1,0 +1,10 @@
+frame: map
+places:
+  door:
+    x: 1.5
+    y: -2.0
+    yaw: -1.57
+  home:
+    x: 0.731
+    y: -0.159
+    yaw: 1.167

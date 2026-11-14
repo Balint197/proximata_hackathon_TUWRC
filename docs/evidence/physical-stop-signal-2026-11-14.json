@@ -1,0 +1,11 @@
+{
+  "test": "passive physical stop signal; no motion or service calls", 
+  "physical_stopping_verified": false, 
+  "events": [
+    {
+      "state": false, 
+      "elapsed_s": 0.128
+    }
+  ], 
+  "motor_enable": false
+}

@@ -1,0 +1,15 @@
+{
+  "kill_t": 8.019191026687622,
+  "trip_after_kill_s": 0.1589829921722412,
+  "zero_after_kill_s": 0.15924406051635742,
+  "live_ui_disable_after_kill_s": 0.19302797317504883,
+  "power_false_receipt_after_kill_s": 0.7633440494537354,
+  "harness_cleanup_disable_after_kill_s": 0.6783840656280518,
+  "independent_disable_before_harness_cleanup": true,
+  "final_power": false,
+  "final_speed": {
+    "x": 0.0,
+    "z": 0.0
+  },
+  "limitations": "Receipt timings are not electrical or physical stop latency. Power-off telemetry overlaps later harness cleanup; live ui_srv_call false and supervisor zero precede cleanup. Harness stopped on stale telemetry during blocking GPIO disable RPC."
+}

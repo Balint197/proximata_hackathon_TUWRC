@@ -1,0 +1,13 @@
+{
+  "odom_frame": "odom", 
+  "front_valid": 177, 
+  "power": false, 
+  "scan_age": 0.18293046951293945, 
+  "pose": {
+    "y": 0.008265913464128971, 
+    "x": 0.009157576598227024
+  }, 
+  "odom_age": 0.08738040924072266, 
+  "child_frame": "base_link", 
+  "front_min": 0.2879999876022339
+}

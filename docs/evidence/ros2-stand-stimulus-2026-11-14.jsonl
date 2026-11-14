@@ -1,0 +1,3 @@
+{"event": "command_start", "wall": 1794625649.4715054, "monotonic": 12959.710421425}
+{"event": "command_stream_end", "wall": 1794625650.990886, "monotonic": 12961.229801633}
+{"event": "gate_disarmed_after_command_loss", "wall": 1794625653.9911993, "monotonic": 12964.23011503}

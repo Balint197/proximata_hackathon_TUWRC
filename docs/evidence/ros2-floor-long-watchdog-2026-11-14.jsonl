@@ -1,0 +1,9 @@
+{"event": "trip", "reason": "motion_ended", "monotonic": 17848.612017821, "hardware": true}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 17848.631878954}
+{"event": "disable_reply", "service": "/gpio/motorpower_srv", "request": false, "success": true, "monotonic": 17849.190451791}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 17849.659495972}
+{"event": "disable_reply", "service": "/gpio/motorpower_srv", "request": false, "success": true, "monotonic": 17850.286964552}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 17850.687898892}
+{"event": "disable_reply", "service": "/gpio/motorpower_srv", "request": false, "success": true, "monotonic": 17851.208290707}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 17851.689145685}
+shutdown request: user request

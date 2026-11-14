@@ -49,3 +49,12 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Local secrets and discovery archives (may contain environment credentials)
+.env
+.env.*
+!.env.example
+.secrets/
+d1_recon_*/
+d1_recon_*.tar.gz
+__pycache__/

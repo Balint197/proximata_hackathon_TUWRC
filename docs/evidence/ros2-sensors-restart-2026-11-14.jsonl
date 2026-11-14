@@ -1,0 +1,13 @@
+{"topic": "/robot/scan", "messages": 225, "frame": "front_laser", "stamp": 1794628814.1164196}
+{"topic": "/robot/odom", "messages": 1472, "frame": "odom", "stamp": 1794628814.1763842}
+{"topic": "/robot/imu/data", "messages": 1488, "frame": "imu_link", "stamp": 1794628814.1837873}
+{"topic": "/camera_back/rgb/image_raw", "messages": 444, "frame": "camera_back_rgb_optical_frame", "stamp": 1794628814.0725095}
+{"topic": "/camera_back/depth/image_rect_raw", "messages": 448, "frame": "camera_back_depth_optical_frame", "stamp": 1794628814.0977457}
+{"topic": "/disinfection/pm10", "messages": 75, "value": 5.0}
+{"topic": "/disinfection/pm25", "messages": 75, "value": 5.0}
+{"topic": "/disinfection/pm100", "messages": 75, "value": 5.0}
+{"topic": "/disinfection/o3", "messages": 75, "value": 0.197}
+{"topic": "/disinfection/co2", "messages": 75, "value": 0.0}
+{"topic": "/disinfection/tvoc", "messages": 75, "value": 1.042}
+{"topic": "/disinfection/temperature", "messages": 75, "value": 0.0}
+{"topic": "/disinfection/humidity", "messages": 75, "value": 0.0}

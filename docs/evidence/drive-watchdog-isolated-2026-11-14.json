@@ -1,0 +1,23 @@
+{
+  "isolated": true,
+  "blocked_enable_did_not_block_power_off": true,
+  "results": [
+    {
+      "hardware_mode": false,
+      "passed": true,
+      "disable_requests": 0,
+      "zero_messages": 0
+    },
+    {
+      "hardware_mode": true,
+      "passed": true,
+      "disable_requests": 2,
+      "zero_messages": 35
+    },
+    {
+      "hardware_mode": true,
+      "healthy_shutdown": true,
+      "passed": true
+    }
+  ]
+}

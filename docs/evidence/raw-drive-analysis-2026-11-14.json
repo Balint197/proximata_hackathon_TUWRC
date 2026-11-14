@@ -1,0 +1,32 @@
+{
+  "last_nonzero_feedback": {
+    "x": -0.0034033922188898935, 
+    "kind": "actual", 
+    "z": -0.01938150466338208, 
+    "t": 12.178853
+  }, 
+  "button_press_t": 9.744854, 
+  "peak_angular_feedback": 0.17443353980438692, 
+  "power_false_t": 9.744952, 
+  "final_motor_enable": false, 
+  "rpm_kinematics_matching_fraction": 1.0, 
+  "final_speed": 0.0, 
+  "final_power": false, 
+  "motion_start_t": 7.25101, 
+  "command_end_t": 9.758237, 
+  "encoder_start": {
+    "stamp": 1794623652.8227155, 
+    "kind": "encoder", 
+    "right": 738.0, 
+    "t": 7.250226, 
+    "left": -832.0
+  }, 
+  "encoder_at_press": {
+    "stamp": 1794623655.3216448, 
+    "kind": "encoder", 
+    "right": 1043.0, 
+    "t": 9.748364, 
+    "left": -781.0
+  }, 
+  "software_reaction_s": 0.013382999999999257
+}

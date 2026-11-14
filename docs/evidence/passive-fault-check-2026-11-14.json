@@ -1,0 +1,31 @@
+{
+  "/robot/motor/controllable_state": {
+    "message": "header: \n  seq: 1384485\n  stamp: \n    secs: 1794626668\n    nsecs: 487962880\n  frame_id: ''\nemg_release: True\nno_fall: True\nui_srv_call: False\nno_error: False\nfirmware_ver_corr: True\nresult: False", 
+    "type": "mot_sbl2360_msgs/MotorState"
+  }, 
+  "/robot/battery/percentage": {
+    "message": "data: 47.0", 
+    "type": "std_msgs/Float64"
+  }, 
+  "/robot/ErrorMsg": {
+    "message": "header: \n  seq: 3708\n  stamp: \n    secs: 1794626668\n    nsecs: 379690816\n  frame_id: \"GPIO\"\nerror_type: 207\nerror_code: 207\nerror_msg: \"GPIO: Motor Power Disable\"\nsource_node: \"GPIO\"\nlevel: \"WARN\"\ncause: \"Motor Power OFF\"\nremedy: \"Persistent error: Check EMG switch, or TX2\"", 
+    "type": "mot_sbl2360_msgs/RobotError"
+  }, 
+  "/robot/motor_power": {
+    "message": "data: False", 
+    "type": "std_msgs/Bool"
+  }, 
+  "wall_time": 1794626668.818028, 
+  "/robot/motor/actual_vel": {
+    "message": "linear: \n  x: 0.0\n  y: 0.0\n  z: 0.0\nangular: \n  x: 0.0\n  y: 0.0\n  z: 0.0", 
+    "type": "geometry_msgs/Twist"
+  }, 
+  "/robot/battery/temperature": {
+    "message": "data: 25.0", 
+    "type": "std_msgs/Float64"
+  }, 
+  "/robot/battery/voltage": {
+    "message": "data: 25.5", 
+    "type": "std_msgs/Float64"
+  }
+}

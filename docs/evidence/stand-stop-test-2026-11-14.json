@@ -1,0 +1,6125 @@
+{
+  "limitation": "Physical stop signal also triggers software zero commands and disable; this tests the combined stop path, not independent hardware stopping.", 
+  "reason": "six_second_limit", 
+  "final_speed": 0.0, 
+  "events": [
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1309
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1506
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1507
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1596
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1869
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1903
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.1988
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2076
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2193
+    }, 
+    {
+      "kind": "button", 
+      "pressed": false, 
+      "elapsed_s": 0.2209
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2303
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2376
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2529
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2595
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2874
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2915
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.2977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3184
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3225
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3294
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3579
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3693
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.3978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4682
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4783
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.488
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.4979
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.508
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.518
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5585
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.588
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.5983
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6081
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6181
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6682
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.6879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.698
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7287
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7685
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7886
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.7979
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8681
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.8978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9181
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9481
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.958
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9683
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9884
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 0.9982
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.008
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.028
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0519
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0597
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0855
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0886
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.0991
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1194
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1291
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1512
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1513
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1606
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1857
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1895
+    }, 
+    {
+      "message": "true", 
+      "kind": "enable_response", 
+      "success": true, 
+      "elapsed_s": 1.1909
+    }, 
+    {
+      "kind": "motion_start", 
+      "requested_angular_z": 0.08, 
+      "elapsed_s": 1.191
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.1994
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.208
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2181
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.2978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3199
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3285
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3376
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.388
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.3985
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4085
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4196
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4287
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4382
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4484
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4583
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4786
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4882
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.4988
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5286
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.5879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.599
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6303
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6526
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6684
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6863
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6882
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.6977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7172
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7222
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7285
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7486
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7487
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7593
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7842
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7892
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.7977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8184
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8218
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.889
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.8978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9167
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9201
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9297
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.95
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.95
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9602
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9837
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9837
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9906
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 1.9994
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0206
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0206
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0294
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0517
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0517
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0837
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0905
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.0977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1161
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1199
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1285
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1497
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1498
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1588
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1841
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1899
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.1977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.218
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2218
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2389
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2526
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2836
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2901
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.2984
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.309
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3188
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3483
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3687
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.3977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.408
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4187
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.438
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4581
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.4989
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.518
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5311
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5685
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.5981
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6184
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6485
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6622
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6676
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.6978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7521
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7619
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.768
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.7987
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8218
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8491
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8582
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.8986
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9083
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9192
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9376
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.948
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9595
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.968
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 2.9978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0147
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.021
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0291
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0376
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0487
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0581
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.0977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1481
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1593
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1682
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.1982
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2183
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2676
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.2977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.308
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3182
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.328
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3517
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.3981
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4138
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.42
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4468
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4503
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4593
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4802
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4802
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4904
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.4977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5144
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5283
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5497
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5498
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5602
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5834
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5834
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5892
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.5978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6143
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6196
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6594
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6818
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6818
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6891
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.6978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7148
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7192
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7295
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7472
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7519
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.759
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7676
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7827
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.79
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.7977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8147
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.82
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8498
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8815
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8815
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8901
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.8981
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9086
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.919
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.93
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9388
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9492
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.958
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9692
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9876
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 3.9988
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0132
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0209
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0284
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0459
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0514
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.0815
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.09
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1134
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1134
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1208
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1498
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1582
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1809
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.1809
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.189
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2151
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2193
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2285
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2507
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2589
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2822
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.2822
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.292
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3131
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3131
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.32
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3284
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3472
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.35
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3721
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3787
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.389
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.3983
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4089
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.418
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.428
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.448
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4783
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.4977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5496
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5896
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.5976
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6082
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6376
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6487
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6784
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.692
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.6978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7288
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7494
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7604
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7683
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.7883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.798
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8482
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8587
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.868
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.888
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.8978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9512
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9681
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9797
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 4.9979
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0197
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0394
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0495
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0767
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0785
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.0894
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1135
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1136
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1195
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1495
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1592
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1681
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1798
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.1888
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2181
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.248
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.2985
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3381
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3481
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3595
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3695
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3782
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3888
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.3978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.428
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4483
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4588
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.48
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4882
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.4977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.508
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.528
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5483
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5579
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5791
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.5977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.628
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6489
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6585
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6794
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.688
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.6978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7486
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7585
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7684
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7792
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7904
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.7977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8283
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8895
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.8977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9594
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9683
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9793
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 5.9888
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0021
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0113
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0451
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0497
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0767
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0824
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0892
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.0977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1129
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1197
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1438
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1492
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1771
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1807
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.1893
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2087
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2116
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2192
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2451
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2496
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2743
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2784
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2893
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.2988
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.308
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.318
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3285
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3586
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.3978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4589
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4886
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.4978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.508
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5783
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.5978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6092
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6187
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6683
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6786
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.688
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.6981
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7088
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.719
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7282
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.748
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7582
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7782
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.7881
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.798
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8089
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8181
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8284
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8481
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8593
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8781
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8882
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.8977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9078
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9209
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9283
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9681
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9784
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 6.9982
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0116
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.018
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.028
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0523
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0747
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0747
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0803
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.0877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1109
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1109
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1182
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1282
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1424
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1492
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1696
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.1878
+    }, 
+    {
+      "reason": "six_second_limit", 
+      "kind": "command_end", 
+      "elapsed_s": 7.1942
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2081
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2187
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2286
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2434
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2488
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2732
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2793
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.2878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3088
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3088
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3193
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.328
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.348
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3584
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3685
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3781
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3889
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.3977
+    }, 
+    {
+      "message": "false", 
+      "kind": "disable_response", 
+      "success": false, 
+      "elapsed_s": 7.4062
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4099
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4207
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4381
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4583
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.468
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4793
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4882
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.4977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5182
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5279
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5586
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5686
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5782
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5891
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.5977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6096
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6579
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6785
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.6976
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7081
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.758
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.7883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.798
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8081
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.819
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8887
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.8976
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9081
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9182
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9579
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9682
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 7.9883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0068
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0101
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0199
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0395
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0395
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0489
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.074
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0796
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.0988
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1093
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1199
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.1977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.208
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2193
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2385
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2578
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.268
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2881
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.2977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3086
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.318
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3885
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.3977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4094
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4207
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4776
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4897
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.4976
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5083
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5198
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5776
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.589
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.5977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6086
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6204
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6278
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6387
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.658
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6895
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.6977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.74
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.758
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7684
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7889
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.7977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8082
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8185
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8485
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8676
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8881
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.8977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9082
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9195
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9493
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9683
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 8.9886
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0067
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0423
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0484
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0591
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0775
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0795
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.0877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1054
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1086
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1177
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1393
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1393
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.15
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1714
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1714
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1792
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.1883
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.208
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2092
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2183
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2284
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2399
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2505
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2716
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2716
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.2878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3067
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3103
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3395
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3395
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3726
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3726
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3779
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.3886
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4072
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4101
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4176
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4394
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4395
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4499
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4593
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4725
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4796
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4885
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.4983
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5077
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5178
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5378
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5522
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5684
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.5977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6179
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.628
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.638
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6678
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6778
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.688
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.6978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7176
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7383
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7481
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7583
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7687
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7776
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7881
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.7977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.808
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8189
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.838
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8479
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.878
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8879
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.8978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.908
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.918
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9377
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9477
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9777
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 9.9877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0034
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0088
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0182
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0276
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0379
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0478
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0577
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0677
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0776
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.0977
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.108
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1197
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1277
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.138
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1484
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1576
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1679
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1776
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1877
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.1978
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2079
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2192
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2281
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2384
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2483
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2579
+    }, 
+    {
+      "angular_z": 0.0, 
+      "linear_x": 0.0, 
+      "kind": "velocity", 
+      "elapsed_s": 10.2678
+    }
+  ], 
+  "motor_enable": false
+}

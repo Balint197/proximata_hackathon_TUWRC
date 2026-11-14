@@ -1,0 +1,16 @@
+{
+  "injected_gate_loss_t": 7.140313148498535,
+  "first_vendor_zero_after_loss_s": 1.2644679546356201,
+  "first_supervisor_cleanup_zero_after_loss_s": 2.004426956176758,
+  "feedback_300_to_1000_ms_after_loss": {
+    "samples": 70,
+    "nonzero_samples": 70,
+    "peak_abs_angular": 0.11628902364818884
+  },
+  "final_power": false,
+  "final_speed": {
+    "x": 0.0,
+    "z": 0.0
+  },
+  "conclusion": "Adapter process loss does not demonstrate a prompt fail-closed stop. Vendor zero self-publication occurs later. Independent disable-on-loss supervisor required before floor/Nav2 use."
+}

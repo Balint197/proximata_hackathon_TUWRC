@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "/robot/button/emergency_state": 450, 
+    "/robot/motor_power": 450
+  }, 
+  "events": [
+    {
+      "topic": "/robot/button/emergency_state", 
+      "value": false, 
+      "elapsed_s": 0.136
+    }, 
+    {
+      "topic": "/robot/motor_power", 
+      "value": false, 
+      "elapsed_s": 0.136
+    }, 
+    {
+      "topic": "/robot/button/emergency_state", 
+      "value": true, 
+      "elapsed_s": 12.937
+    }, 
+    {
+      "topic": "/robot/button/emergency_state", 
+      "value": false, 
+      "elapsed_s": 20.233
+    }
+  ], 
+  "operator_report": "Operator observed motion stopping when red button pressed about two seconds after movement began; preceding timed test logged no emergency signal transition. Cause unresolved.", 
+  "motor_enable": false
+}

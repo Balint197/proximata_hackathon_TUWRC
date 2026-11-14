@@ -1,0 +1,27 @@
+{
+  "command_duration_s": 2.0378099999999995, 
+  "interpretation": "Feedback is consistent with integer RPM resolution; mean is below request. Does not prove spikes are measurement artifacts or exclude physical overshoot. Raw encoder data was not captured during this motion.", 
+  "configured_track_m": 0.3512, 
+  "mean_feedback_yaw_rate_during_command": 0.0478470574743229, 
+  "time_integrated_yaw_rad": 0.09750321219174993, 
+  "samples_above_guard": 2, 
+  "configured_radius_m": 0.065, 
+  "spike_events": [
+    {
+      "x": 0.09189158268321182, 
+      "kind": "actual", 
+      "z": 0.32948555978302896, 
+      "t": 9.24969
+    }, 
+    {
+      "x": 0.09189158268321182, 
+      "kind": "actual", 
+      "z": 0.32948555978302896, 
+      "t": 9.25872
+    }
+  ], 
+  "maximum_step_residual": 4.1723303922935884e-07, 
+  "angular_step_per_one_rpm": 0.01938150365255662, 
+  "source": "docs/evidence/synchronized-stop-repeat-2026-11-14.json", 
+  "peak_feedback_yaw_rate": 0.32948555978302896
+}

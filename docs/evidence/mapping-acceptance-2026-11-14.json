@@ -1,0 +1,21 @@
+{
+  "map_messages": 3,
+  "latest_map": {
+    "frame": "map",
+    "width": 214,
+    "height": 309,
+    "resolution": 0.05000000074505806,
+    "known_cells": 4817,
+    "occupied_cells": 228,
+    "free_cells": 4589
+  },
+  "cmd_vel_publishers": [],
+  "map_to_odom": {
+    "translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stamp": 1794624005.4443057
+  }
+}

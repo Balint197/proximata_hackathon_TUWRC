@@ -1,0 +1,26 @@
+{"event": "trip", "reason": "adapter_stale", "monotonic": 15390.674432602, "hardware": true}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 15390.700435116}
+{"event": "disable_reply", "service": "/gpio/motorpower_srv", "request": false, "success": true, "monotonic": 15391.275426684}
+{"event": "disable_reply", "service": "/robot/motor/enable_srv", "request": false, "success": false, "monotonic": 15391.713136435}
+shutdown request: user request
+Traceback (most recent call last):
+  File "/root/d1-tools/drive-watchdog.py", line 76, in <module>
+    prepared.publish(Bool(data=is_prepared))
+  File "/opt/ros/one/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/one/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/d1-tools/drive-watchdog.py", line 89, in <module>
+    disable_outputs()
+  File "/root/d1-tools/drive-watchdog.py", line 58, in disable_outputs
+    zero.publish(Twist())
+  File "/opt/ros/one/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/one/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic

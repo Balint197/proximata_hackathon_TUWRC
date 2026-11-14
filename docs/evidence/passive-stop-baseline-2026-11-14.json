@@ -1,0 +1,37 @@
+{
+  "watchdog_verified": false, 
+  "physical_stop_verified": false, 
+  "topics": {
+    "/robot/button/emergency_state": {
+      "count": 50, 
+      "last": false
+    }, 
+    "/robot/motor/actual_vel": {
+      "count": 497, 
+      "max_abs": 0, 
+      "last": {
+        "angular_z": 0.0, 
+        "linear_x": 0.0
+      }
+    }, 
+    "/cmd_vel": {
+      "count": 2, 
+      "max_abs": 0, 
+      "last": {
+        "angular_z": 0.0, 
+        "linear_x": 0.0
+      }
+    }, 
+    "/filtered_cmd_vel": {
+      "count": 497, 
+      "max_abs": 0, 
+      "last": {
+        "angular_z": 0.0, 
+        "linear_x": 0.0
+      }
+    }
+  }, 
+  "unix_time": 1794622674.366334, 
+  "motor_enable": false, 
+  "check": "passive only; no command or service calls"
+}

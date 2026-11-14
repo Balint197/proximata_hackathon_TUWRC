@@ -1,0 +1,16 @@
+{
+  "reason": "stale_feedback",
+  "command_interval_s": 2.2389988899230957,
+  "odom_delta_x": 0.09420901292469352,
+  "odom_delta_y": 0.042247584788128734,
+  "odom_distance_m": 0.10324822776529967,
+  "odom_forward_m": 0.10324779839859612,
+  "odom_yaw_delta_rad": -0.0014192461967468262,
+  "guards": [],
+  "final_power": false,
+  "final_speed": {
+    "x": 0.0,
+    "z": 0.0
+  },
+  "limitation": "Odometry displacement, not externally measured physical distance. No Nav2 navigation demonstrated."
+}

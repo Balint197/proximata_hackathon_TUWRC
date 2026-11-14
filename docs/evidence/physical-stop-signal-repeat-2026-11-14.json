@@ -1,0 +1,20 @@
+{
+  "message_count": 450, 
+  "test": "passive physical stop signal repeat; no motion or service calls", 
+  "physical_stopping_verified": false, 
+  "events": [
+    {
+      "state": false, 
+      "elapsed_s": 0.091
+    }, 
+    {
+      "state": true, 
+      "elapsed_s": 0.594
+    }, 
+    {
+      "state": false, 
+      "elapsed_s": 7.087
+    }
+  ], 
+  "motor_enable": false
+}

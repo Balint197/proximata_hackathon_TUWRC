@@ -1,0 +1,19 @@
+{
+  "reason": "stimulus_complete",
+  "command_duration_observed": 1.7400357723236084,
+  "post_zero_before_disable": {
+    "samples": 302,
+    "nonzero_samples": 69,
+    "peak_abs_x": 0.006806784437779787,
+    "peak_abs_z": 0.05814451182409442,
+    "encoder_delta_left": -26.0,
+    "encoder_delta_right": 30.0
+  },
+  "last_nonzero_feedback_seconds_after_last_nonzero_command": 4.095861196517944,
+  "final_power": false,
+  "final_speed": {
+    "x": 0.0,
+    "z": 0.0
+  },
+  "conclusion": "ROS 2 command and software timeout demonstrated. Prompt physical standstill is not established; nonzero velocity and encoder changes persisted after zero commands. No floor/Nav2 motion."
+}
