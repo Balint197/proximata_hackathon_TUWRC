@@ -185,3 +185,9 @@ bash scripts/test-drive-watchdog.sh    # watchdog transport with fake motor serv
 | `03_d1_base_driver.py` | obsolete serial scaffold from before the ROS 1 path was found; do not use |
 
 MIT licensed.
+
+## D1 preparation
+
+- [Track brief](tuwrc-d1-brief.md)
+- [USB discovery and software runbook](docs/d1-usb-runbook.md)
+- [Hardware research and primary sources](docs/d1-hardware-research.md)

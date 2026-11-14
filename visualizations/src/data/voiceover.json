@@ -1,0 +1,117 @@
+{
+ "music": null,
+ "lines": [
+  {
+   "id": "01-cold-open",
+   "text": "This morning, a seventy-four kilo disinfection robot drove itself to its goal. It was never built to take orders from us.",
+   "file": "voiceover/01-cold-open.scratch.wav",
+   "seconds": 7.08,
+   "scratch": true
+  },
+  {
+   "id": "02-title",
+   "text": "We're Verspätete Rädfahrer, and this is how we hacked the D1.",
+   "file": "voiceover/02-title.scratch.wav",
+   "seconds": 3.6,
+   "scratch": true
+  },
+  {
+   "id": "03-closed-box",
+   "text": "The Hyundai D1 is sold as a closed box. Our track had five levels: get in, unlock every sensor, take the wheel, navigate, and answer the door.",
+   "file": "voiceover/03-closed-box.scratch.wav",
+   "seconds": 9.55,
+   "scratch": true
+  },
+  {
+   "id": "04-getting-in",
+   "text": "Getting in was the first wall. USB from our laptop showed no device at all. So we used the robot's own touchscreen as a terminal, gave it internet through phone tethering, and had it open a reverse SSH tunnel to our server. Remote shell. No sudo.",
+   "file": "voiceover/04-getting-in.scratch.wav",
+   "seconds": 14.77,
+   "scratch": true
+  },
+  {
+   "id": "05-brain",
+   "text": "Inside, we found a networked brain: an Ubuntu display computer, and an internal controller running the ROS 1 master, the motor driver and the laser. We mapped the whole vendor graph before sending a single motion command.",
+   "file": "voiceover/05-brain.scratch.wav",
+   "seconds": 12.75,
+   "scratch": true
+  },
+  {
+   "id": "06-sensors",
+   "text": "We ran ROS 2 Humble rootless on the display computer, with a one-way bridge from the vendor graph. Laser, odometry, IMU, the rear camera, eight air-quality sensors: thirteen topics passed a live check. Two depth cameras never sent a frame.",
+   "file": "voiceover/06-sensors.scratch.wav",
+   "seconds": 15.04,
+   "scratch": true
+  },
+  {
+   "id": "07-drive-gate",
+   "text": "Then, movement. Every command goes through our drive gate. It starts disarmed, clamps the speed, and drops to zero a quarter of a second after the last command. An independent watchdog cuts the motors if anything goes stale.",
+   "file": "voiceover/07-drive-gate.scratch.wav",
+   "seconds": 13.36,
+   "scratch": true
+  },
+  {
+   "id": "08-mission-log",
+   "text": "Every drive ran as a supervised session, with a person on the red stop. Twenty-five sessions. Many of them were stopped by our own guards.",
+   "file": "voiceover/08-mission-log.scratch.wav",
+   "seconds": 8.13,
+   "scratch": true
+  },
+  {
+   "id": "09-radar",
+   "text": "The laser guard stopped us fourteen times. And three of those? The robot was seeing its own bracket. We measured it, and masked it.",
+   "file": "voiceover/09-radar.scratch.wav",
+   "seconds": 7.9,
+   "scratch": true
+  },
+  {
+   "id": "10-watchdog",
+   "text": "We also killed the drive software on purpose. The watchdog tripped in a hundred and sixty milliseconds.",
+   "file": "voiceover/10-watchdog.scratch.wav",
+   "seconds": 5.84,
+   "scratch": true
+  },
+  {
+   "id": "11-footage",
+   "text": "Then came SLAM Toolbox for a live map, and Nav2 for planning. Here's the robot driving itself to a bottle that stands in for the front door.",
+   "file": "voiceover/11-footage.scratch.wav",
+   "seconds": 8.03,
+   "scratch": true
+  },
+  {
+   "id": "12-replay",
+   "text": "And this is a logged run from the robot's point of view. Live laser scans, the Nav2 plan, the path it drove. Ten seconds of autonomous driving. Goal reached.",
+   "file": "voiceover/12-replay.scratch.wav",
+   "seconds": 9.83,
+   "scratch": true
+  },
+  {
+   "id": "13-debrief",
+   "text": "One point zero four metres. It stopped seventeen centimetres short, because the map shifted slightly during the drive.",
+   "file": "voiceover/13-debrief.scratch.wav",
+   "seconds": 6.95,
+   "scratch": true
+  },
+  {
+   "id": "14-lessons",
+   "text": "What we learned: the vendor's ROS 1 graph was the real integration point. Published doesn't mean delivered. Motor power and motor enable are two different things. And a command timeout needs its own independent supervisor.",
+   "file": "voiceover/14-lessons.scratch.wav",
+   "seconds": 12.72,
+   "scratch": true
+  },
+  {
+   "id": "15-status",
+   "text": "Demonstrated: access, a ROS 2 sensor bridge, supervised driving, and a completed Nav2 goal. Next: the real door, and the doorbell through Home Assistant. It's designed, but we had no credentials.",
+   "file": "voiceover/15-status.scratch.wav",
+   "seconds": 13.3,
+   "scratch": true
+  },
+  {
+   "id": "16-outro",
+   "text": "No flashing. No cutting. Nothing replaced. Just ROS 2. We're Verspätete Rädfahrer. Thank you!",
+   "file": "voiceover/16-outro.scratch.wav",
+   "seconds": 7.02,
+   "scratch": true
+  }
+ ]
+}
