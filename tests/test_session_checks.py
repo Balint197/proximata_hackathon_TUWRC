@@ -32,6 +32,19 @@ class SessionChecks(unittest.TestCase):
         self.assertEqual(res['reason'], 'obstacle_ahead')
         self.assertTrue(res['stop'])
 
+    def test_bracket_edge_flicker_is_masked(self):
+        r = scan(); put(r, -60.6, .249, 2); put(r, -56.7, .217, 2)   # recorded trip rays
+        self.assertFalse(proximity(r, AMIN, INC, .05, 23.)['stop'])
+        r = scan(); put(r, -60.6, .35, 3)     # something farther out at that bearing still stops
+        self.assertTrue(proximity(r, AMIN, INC, .05, 23.)['stop'])
+
+    def test_reduced_stop_ahead_allows_close_approach(self):
+        r = scan(); put(r, 0, .25, 10)      # target 0.157 m past the bumper
+        self.assertEqual(proximity(r, AMIN, INC, .05, 23.)['reason'], 'obstacle_ahead')
+        self.assertFalse(proximity(r, AMIN, INC, .05, 23., stop_ahead=.08)['stop'])
+        r = scan(); put(r, 0, .14, 10)      # 0.047 m past the bumper still stops
+        self.assertTrue(proximity(r, AMIN, INC, .05, 23., stop_ahead=.08)['stop'])
+
     def test_obstacle_ahead_beyond_sweep_radius_stops(self):
         r = scan(); put(r, 0, .50, 5)       # x = .697 ... beyond radius, within ahead zone? no
         self.assertFalse(proximity(r, AMIN, INC, .05, 23.)['stop'])

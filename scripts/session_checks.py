@@ -20,6 +20,11 @@ MIN_POINTS = 2      # a single isolated ray is not enough to trip
 # after turns; while turning the sector reads up to 0.38 m: a loose part (cable?)
 # hanging on the right side. Masked to 0.42 m: a 7 degree, ~5 cm blind wedge.
 SELF_SECTORS = [(-1.257, -1.126, .36), (-1.930, -1.800, .42)]
+# The same bracket protrudes past the bumper while driving: three Nav2 sessions
+# (20261114T084805, T084949, T085812) tripped on base_link points x 0.316-0.331,
+# y -0.181..-0.235, and earlier sessions show the same patch. Treated as body:
+# a 5.5 x 13 cm blind patch at the front-right corner (x <= 0.345, y -0.29..-0.16).
+SELF_BOX = (HALF, .345, -.29, -.16)
 
 
 def _invalid(value, range_min, range_max):
@@ -40,12 +45,14 @@ def scan_points(ranges, angle_min, increment, range_min, range_max):
         x = LASER_X + r * math.cos(a); y = r * math.sin(a)
         if abs(x) <= HALF + SELF_MARGIN and abs(y) <= HALF + SELF_MARGIN:
             continue  # self-occlusion (housing, bumper)
+        if SELF_BOX[0] < x <= SELF_BOX[1] and SELF_BOX[2] <= y <= SELF_BOX[3]:
+            continue  # front-right bracket
         points.append((x, y))
     return points, valid, len(ranges)
 
 
 def proximity(ranges, angle_min, increment, range_min, range_max, rotating=False,
-              forward=True):
+              forward=True, stop_ahead=STOP_AHEAD):
     """Classify the scan: dict(stop, reason, nearest, coverage, ...).
 
     Always: anything within SIDE_GAP of the body sides. Forward corridor: unless
@@ -54,7 +61,7 @@ def proximity(ranges, angle_min, increment, range_min, range_max, rotating=False
     """
     points, valid, total = scan_points(ranges, angle_min, increment, range_min, range_max)
     near = [p for p in points if math.hypot(p[0], p[1]) < STOP_RADIUS]
-    ahead = [p for p in points if HALF < p[0] <= HALF + STOP_AHEAD and abs(p[1]) <= HALF + .04]
+    ahead = [p for p in points if HALF < p[0] <= HALF + stop_ahead and abs(p[1]) <= HALF + .04]
     side = [p for p in points if abs(p[0]) <= HALF and abs(p[1]) <= HALF + SIDE_GAP]
     nearest = min([math.hypot(*p) for p in points]) if points else None
     coverage = float(valid) / total if total else 0.

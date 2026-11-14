@@ -26,7 +26,7 @@ controller = config['controller_server']['ros__parameters']
 controller.update(controller_frequency=10., min_y_velocity_threshold=0., odom_topic='/robot/odom',
                   failure_tolerance=1.0)
 controller['progress_checker'].update(required_movement_radius=.10, movement_time_allowance=15.)
-controller['general_goal_checker'].update(xy_goal_tolerance=.15, yaw_goal_tolerance=.25)
+controller['general_goal_checker'].update(xy_goal_tolerance=.04, yaw_goal_tolerance=.25)
 # Regulated Pure Pursuit: follows the global path and turns toward it at a fixed
 # rate. DWB stalled here because it decayed in-place turns below the base's
 # ~0.05 rad/s deadband (session 20261114T073216-nav2-door).

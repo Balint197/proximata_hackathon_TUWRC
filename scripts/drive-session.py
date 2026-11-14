@@ -32,11 +32,15 @@ parser.add_argument('--label', default='session')
 parser.add_argument('--scan-guard', choices=['forward', 'full', 'off'], default='forward',
                     help='forward: stop for obstacles in the path while driving forward (default); '
                          'full: also side contact and turning sweep; off: physical stop/watchdog only')
+parser.add_argument('--stop-ahead', type=float, default=.33,
+                    help='forward guard: stop for anything this far beyond the front bumper (m); '
+                         'lower it only for a deliberate approach to a target')
 parser.add_argument('command', nargs=argparse.REMAINDER)
 args = parser.parse_args()
 command = args.command[1:] if args.command[:1] == ['--'] else args.command
 if not command: parser.error('a ROS 2 command is required after --')
 if not 0 < args.max_seconds <= 300: parser.error('max-seconds must be in (0, 300]')
+if not .05 <= args.stop_ahead <= 1.: parser.error('stop-ahead must be in [0.05, 1] m')
 if not 0 < args.geofence <= 6: parser.error('geofence must be in (0, 6] m')
 if not 0 < args.idle_timeout <= 3: parser.error('idle-timeout must be in (0, 3] s')
 
@@ -77,7 +81,7 @@ def scan(msg):
     rotating = abs(state['gate_z']) > .045 or abs(state['z']) > .06
     forward = state['gate_x'] > .005 or state['x'] > .02
     p = proximity(msg.ranges, msg.angle_min, msg.angle_increment, msg.range_min, msg.range_max,
-                  rotating, forward)
+                  rotating, forward, args.stop_ahead)
     state.update(prox=p, scan_time=time.time())
     record('scan', .2, **p)
     if p['stop'] and (args.scan_guard == 'full' or
